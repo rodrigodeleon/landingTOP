@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 100px;
+  padding: 0 15%;
 }
 
 .header-logo {
@@ -27,9 +27,6 @@ body {
   display: flex;
   list-style-type: none;
   color: #e5e7eb;
-}
-
-ul {
   gap: 20px;
 }
 
@@ -39,49 +36,57 @@ ul {
 .section-4 {
   display: flex;
   justify-content: center;
-  padding: 50px 100px;
+  padding: 30px 15%;
+  gap: 20px;
 }
 .section-1 {
   background-color: #1f2937;
   color: #f9faf8;
+  gap: 5%;
 }
 .hero-left {
   display: flex;
   flex-direction: column;
   color: #e5e7eb;
   align-items: start;
+  
   flex: 1;
-  margin-right: 30px;
 }
 h1 {
   font-size: 48px;
   font-weight: bold;
+  margin: 0px;
 }
 button {
   background-color: #3882f6;
   color: #f9faf8;
+  font-weight: bold;
   padding: 10px;
-  border-radius: 5px;
-  border: #f9faf8;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f9faf8;
 }
 
 .hero-right {
-  flex: 1;
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 .hero-right > img {
-  flex: 0;
-  width: 400px;
-  border-radius: 5px;
-  border: 5px;
+  align-self: center;
+  width: 500px;
+  border-radius: 1px;
+  border: 2px;
+  border-style: solid;
   border-color: #f9faf8;
 }
 
 #tittle-section-2 {
   text-align: center;
-  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 30px;
 }
 
 .section-2 {
@@ -99,16 +104,47 @@ button {
 .img-conteiner > img {
   margin-bottom: 10px;
   border-radius: 20px;
-  border: 2px;
+  border: 4px;
+  border-style: solid;
   border-color: #3882f6;
 }
 
 .section-3 {
+  background-color: #e5e7eb;
+  flex-direction: column;
+  padding: 5% 25%;
+}
+.section-3 > p {
+  font-style: italic;
+  font-size: 30px;
+  margin: 0;
+}
+.text-autor {
+  text-align: right;
+  font-weight: bold;
+  font-size: larger;
 }
 
 .section-4 {
+  padding: 5% 15%;
 }
 
+.signup-panel {
+  display: flex;
+  flex: 1;
+  gap: 40px;
+  justify-content: center;
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.signup-panel > div > * {
+  margin: 3px;
+}
 .footer {
   height: 72px;
   background-color: #1f2937;
